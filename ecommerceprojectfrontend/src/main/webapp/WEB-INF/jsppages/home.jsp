@@ -4,6 +4,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<style type="text/css">
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
@@ -69,18 +88,23 @@
 <h2><font color="white">TRENDING FILES</font></h2>
  </div>
  <hr>
- <img src="<c:url value='/resources/images/trending1.jpg'></c:url>">
- 
+</div>
+<hr>
 <div class="row">
-  <div class="row">
-    <img src="<c:url value='/resources/images/trending1.jpg'></c:url>" alt="Snow" style="width:50%">
+  <div class="column">
+    <img src="<c:url value='/resources/images/trending1.jpg'></c:url>" alt="Snow" style="width:100%">
   </div>
-  <div class="row">
-    <img src="<c:url value='/resources/images/trending1.jpg'></c:url>" alt="Forest" style="width:50%">
+  <div class="column">
+    <img src="<c:url value='/resources/images/bazar1.jpg'></c:url>" alt="Forest" style="width:100%">
+  </div>
+   <div class="column">
+    <img src="<c:url value='/resources/images/boy.jpg'></c:url>" alt="Forest" style="width:100%">
   </div>
 </div>
+<hr>
+<br>
+<br>
 
 
-</div>
 </body>
 </html>
