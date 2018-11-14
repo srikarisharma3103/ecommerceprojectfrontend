@@ -38,7 +38,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img  src="<c:url value='/resources/images/banana.jpg'></c:url>" alt="first slide" height="600" width="800%">
+                    <img  src="<c:url value='/resources/images/bag.jpg'></c:url>" alt="first slide" height="600" width="800%">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>WELCOME TO ONLINE SHOPPING</h1>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img class="img-bordered" src="<c:url value='/resources/images/banana2.jpg'></c:url>" alt="Third slide" height="100%" width="100%">
+                    <img class="img-bordered" src="<c:url value='/resources/images/things.jpg'></c:url>" alt="Third slide" height="100%" width="100%">
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>The products you love</h1>
@@ -65,11 +65,11 @@
                     </div>
                 </div>
                  <div class="item">
-                    <img class="img-thumbnail" src="<c:url value='/resources/images/banana3.jpg'></c:url>" alt="forth slide" height="100%" width="100%">
+                    <img class="img-thumbnail" src="<c:url value='/resources/images/sri.jpg'></c:url>" alt="forth slide" height="100%" width="100%">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Any car can be a "cool" car</h1>
-                            <p>your life,your car...you own it!!</p>
+                            <h1>the rare products you may like</h1>
+                            <p>shop!!...BRAND NEW DEALS!!</p>
                         </div>
                     </div>
                 </div>

@@ -33,7 +33,7 @@
 <div class="container-container">
 <nav class="navbar navbar-inverse" id="navbar-bg">
 <div class="navbar-header">
-				<a href="" class="navbar-brand"><img src="<c:url value='/resources/images/niit.png'></c:url>" alt="NIIT" height="30px" width="70px"></a>
+				<a href="" class="navbar-brand"><img src="<c:url value='/resources/images/shop.png'></c:url>" alt="NIIT" height="30px" width="70px"></a>
 				<button type="button" class="navbar-toggle collapsed" 
    data-toggle="collapse" data-target="#navbardemo" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
