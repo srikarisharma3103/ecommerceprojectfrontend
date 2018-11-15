@@ -5,6 +5,15 @@
 <html>
 <head>
 <style type="text/css">
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
 
 * {
     box-sizing: border-box;
@@ -105,7 +114,9 @@
 <hr>
 <br>
 <br>
-
+<div class="footer">
+  <p>SHOPOHOLIC@YAHOO.COM ©2018,SHOPOHOLICS.com</p>
+</div>
 
 </body>
 </html>
