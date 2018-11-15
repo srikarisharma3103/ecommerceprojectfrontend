@@ -115,7 +115,7 @@
 <br>
 <br>
 <div class="footer">
-  <p>SHOPOHOLIC@YAHOO.COM ©2018,SHOPOHOLICS.com</p>
+  <p>SHOPOHOLIC@YAHOO.COM ©2018,SHOPOHOLICS.COM</p>
 </div>
 
 </body>
