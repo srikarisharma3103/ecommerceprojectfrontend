@@ -53,7 +53,7 @@ ${customerOrder.user.customer.billingaddress.zipcode}
 <table class="table table-hover" border="1">
 <thead>
 <tr>
-<td>IMAGE</td>
+
 <td>PRODUCT</td>
 <td>UNITS</td>
 <td class="text-center">PRICE</td>
@@ -63,8 +63,8 @@ ${customerOrder.user.customer.billingaddress.zipcode}
 <tbody>
 <c:forEach var="cartItem" items="${cartItems}">
 <tr>
-<c:url value="/resources/images/$(cartItem.product.id).png" var="imgUrl"></c:url>
-<td><img src="${imgUrl}" height="50px" width="50px"/></td>
+<%-- <c:url value="/resources/images/$(cartItem.product.id).png" var="imgUrl"></c:url>*/
+<td><img src="${imgUrl}" height="50px" width="50px"/></td> --%>
 <td class="col-md-9"><em>${cartItem.product.productname}</em></td>
 <td class="col-md-1" style="text-align:center">${cartItem.quantity}</td>
 <td class="col-md-1" style="text-align:center">${cartItem.product.price}</td>

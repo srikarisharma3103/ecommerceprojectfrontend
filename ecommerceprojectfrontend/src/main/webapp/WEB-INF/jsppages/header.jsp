@@ -45,7 +45,7 @@
 <div class="collapse navbar-collapse" id="navbardemo">
 <ul class="nav navbar-nav">
 <li><a href="<c:url value='/home'></c:url>"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
-<li><a href="#">AboutUs</a></li>
+
 <security:authorize access="hasRole('ROLE_ADMIN')">
 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-plus"></span>&nbsp;Add<span class="caret"></span></a>
 <ul class="dropdown-menu">
